@@ -44,6 +44,7 @@ define( 'OZH_TA_API', 'https://api.twitter.com/1.1/statuses/user_timeline.json' 
 define( 'OZH_TA_BATCH', 15 );	    // How many tweets to import at most. Take it easy on shared hosting.
 define( 'OZH_TA_NEXT_SUCCESS', 5 ); // How long to wait between sucessfull batches (in seconds)
 define( 'OZH_TA_NEXT_FAIL', 120 );  // How long to wait after a Fail Whale (in seconds)
+define( 'OZH_TA_TWEET_MODE', 'extended' );  // Set tweet mode for 280 characters
 
 global $ozh_ta;
 
